@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Manuela Bedoya</title>
+    <!-- Script de Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased">
+
+    <!-- 1. HEADER / MENÚ DE NAVEGACIÓN -->
+    <header class="max-w-6xl mx-auto px-6 py-6 flex justify-between items-center">
+        <div class="flex items-center gap-3">
+            <span class="bg-indigo-600 text-white font-bold px-3 py-1.5 rounded-lg text-sm">MB</span>
+            <span class="font-semibold text-lg tracking-wide">Manuela Bedoya</span>
+        </div>
+        
+        <nav class="hidden md:flex items-center gap-8 text-sm text-slate-300">
+            <a href="#sobre-mi" class="hover:text-indigo-400 transition">Sobre mí</a>
+            <a href="#proyectos" class="hover:text-indigo-400 transition">Proyectos</a>
+            <a href="#contacto" class="hover:text-indigo-400 transition">Contacto</a>
+        </nav>
+
+        <a href="#" class="border border-slate-700 hover:border-indigo-500 px-4 py-2 rounded-lg text-sm transition">CV</a>
+    </header>
+
+    <!-- 2. SECCIÓN PRINCIPAL (HERO) -->
+    <main class="max-w-6xl mx-auto px-6 py-12 md:py-20 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div class="space-y-6">
+            <p class="text-indigo-400 font-medium">Hola, soy</p>
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight">Manuela Bedoya</h1>
+            <p class="text-xl text-indigo-300 font-medium">Desarrolladora Front-End</p>
+            <p class="text-slate-400 leading-relaxed">
+                Creo experiencias web modernas, rápidas y accesibles utilizando las mejores tecnologías del ecosistema front-end.
+            </p>
+            <div>
+                <a href="#proyectos" class="inline-block bg-indigo-600 hover:bg-indigo-500 text-white font-medium px-6 py-3 rounded-xl shadow-lg shadow-indigo-600/30 transition">
+                    Ver proyectos
+                </a>
+            </div>
+        </div>
+
+        <div class="flex justify-center">
+            <div class="relative w-72 h-72 md:w-80 md:h-80 rounded-full p-2 bg-gradient-to-tr from-indigo-500 via-purple-500 to-slate-800 shadow-2xl">
+                <img src="img/yo.jpeg" alt="Manuela Bedoya" class="w-full h-full object-cover rounded-full">
+            </div>
+        </div>
+    </main>
+
+    <!-- 3. SECCIÓN DE PROYECTOS DESTACADOS -->
+    <section id="proyectos" class="max-w-6xl mx-auto px-6 py-16">
+        <h2 class="text-2xl font-bold mb-10 flex items-center gap-3">
+            <span class="w-2 h-2 rounded-full bg-indigo-500"></span> Proyectos destacados
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+            <!-- PROYECTO 1 -->
+            <a href="project1/index.html" class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:border-indigo-500 hover:scale-[1.02] transition-all duration-300 flex flex-col justify-between group">
+                <div class="p-6 bg-slate-950/50">
+                    <div class="bg-sky-950/40 border border-sky-800/30 rounded-xl p-3 text-white">
+                        <div class="flex justify-between items-center text-[10px] text-sky-300 mb-2">
+                            <span>WEBSITE 01</span>
+                            <span class="bg-orange-500 px-2 py-0.5 rounded text-white font-bold">Home</span>
+                        </div>
+                        <div class="text-[10px] text-slate-300">Maqueta modular con Flexbox y diseño responsive.</div>
+                    </div>
+                </div>
+                <div class="p-6 space-y-4">
+                    <h3 class="text-xl font-bold group-hover:text-indigo-400 transition">Maqueta Práctica (Website)</h3>
+                    <p class="text-slate-400 text-sm">Sitio web estructurado desde cero con HTML semántico y CSS nativo.</p>
+                    <div class="flex gap-2 text-xs">
+                        <span class="px-2.5 py-1 rounded bg-amber-950/50 text-amber-400 border border-amber-800/50">HTML</span>
+                        <span class="px-2.5 py-1 rounded bg-blue-950/50 text-blue-400 border border-blue-800/50">CSS</span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- PROYECTO 2 -->
+            <a href="project2/index.html" class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:border-indigo-500 hover:scale-[1.02] transition-all duration-300 flex flex-col justify-between group">
+                <div class="p-6 bg-slate-950/50">
+                    <div class="bg-indigo-950/40 border border-indigo-800/30 rounded-xl p-4">
+                        <div class="text-xs font-bold text-indigo-400 mb-1">Desarrollo Web</div>
+                        <div class="text-sm font-extrabold mb-1">Proyecto desde Cero</div>
+                        <div class="text-[10px] text-slate-400">Estructura limpia, lógica y componentes personalizados.</div>
+                    </div>
+                </div>
+                <div class="p-6 space-y-4">
+                    <h3 class="text-xl font-bold group-hover:text-indigo-400 transition">Proyecto Principal (Desde Cero)</h3>
+                    <p class="text-slate-400 text-sm">Aplicación o sitio web desarrollado paso a paso con código propio y diseño optimizado.</p>
+                    <div class="flex gap-2 text-xs">
+                        <span class="px-2.5 py-1 rounded bg-amber-950/50 text-amber-400 border border-amber-800/50">HTML</span>
+                        <span class="px-2.5 py-1 rounded bg-blue-950/50 text-blue-400 border border-blue-800/50">CSS</span>
+                        <span class="px-2.5 py-1 rounded bg-yellow-950/50 text-yellow-400 border border-yellow-800/50">JS</span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- PROYECTO 3 (Ruta actualizada con su subcarpeta) -->
+            <a href="project3/prueba_para_proyecto_final/index.html" class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:border-indigo-500 hover:scale-[1.02] transition-all duration-300 flex flex-col justify-between group">
+                <div class="p-6 bg-amber-950/20">
+                    <div class="bg-amber-900/30 border border-amber-800/30 rounded-xl p-4 text-amber-200 shadow-inner">
+                        <div class="text-xs font-semibold tracking-wider uppercase text-amber-400 mb-1">Destellos de Jaspe</div>
+                        <div class="text-base font-bold text-white mb-1">Velas Artesanales de Soja</div>
+                        <div class="text-xs text-amber-100/70">Hechas a mano con esencias naturales.</div>
+                    </div>
+                </div>
+                <div class="p-6 space-y-4">
+                    <h3 class="text-xl font-bold group-hover:text-indigo-400 transition">Tienda de Velas</h3>
+                    <p class="text-slate-400 text-sm">Sitio web interactivo para un catálogo de velas aromáticas y artesanales.</p>
+                    <div class="flex gap-2 text-xs">
+                        <span class="px-2.5 py-1 rounded bg-amber-950/50 text-amber-400 border border-amber-800/50">HTML</span>
+                        <span class="px-2.5 py-1 rounded bg-blue-950/50 text-blue-400 border border-blue-800/50">CSS</span>
+                        <span class="px-2.5 py-1 rounded bg-yellow-950/50 text-yellow-400 border border-yellow-800/50">JS</span>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="max-w-6xl mx-auto px-6 py-10 border-t border-slate-900 text-center text-sm text-slate-500">
+        <p>© 2026 Manuela Bedoya. Hecho con mucho amor y Tailwind CSS.</p>
+    </footer>
+
+</body>
+</html>

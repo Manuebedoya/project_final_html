@@ -1,0 +1,126 @@
+*{ /* Aca estamos indicando que se seleccionan todos los elementos*/
+    margin: 0; /* Aca estamos eliminando los espacios externos*/
+    padding: 0; /* Aca estamos eliminando los espacios intenos*/
+    box-sizing: border-box; /* Aca estamos incluyendo bordes y rellenos al ancho y alto*/
+}
+
+body{ /* Aca estamos modificando todo el cuerpo de la pag*/
+    display: flex; /* Sirve para activar la funcion Flexbox que nos permite organizar los elementos de una forma facil*/
+    justify-content: center; /* Esta funcion nos centra los elementos horizontalmente*/
+    align-items: center; /* Esta funcion nos centra los elementos verticalmente*/
+    min-height: 100vh; /* Esta parte hace que el cuerpo ocupe toda la pantalla  al decirle que el 100% o 100vh que es viewport height o altura visible*/
+    background: #f7e9ad; /* Esta parte le da el color en este caso al fondo*/
+}
+
+.contenedor1{ /* Llama o selecciona la clase .contenedor que se creo en practica1.html*/
+    width: 700px; /* Le da un ancho de 700 pixeles*/
+    border: 2px solid #acaf91; /* Crea el borde de 2px de grosor, con solid dice que es una linea continua y con el color indica que es gris verdoso*/
+    padding: 15px; /* Este es el espacio interno que se le dio en este caso de 15px*/
+}
+
+.header{
+    height: 90px;
+    background: #63afe4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; /* Reduje un poco el espacio (gap) para que los elementos quepan bien en los 700px del contenedor */
+}
+
+.logo{
+    width: 50px; /* Ajustado proporcionalmente para la cabecera */
+    height: auto;
+}
+
+.header h1{
+    font-size: 22px; /* Ajustado para que combine bien con el espacio */
+}
+
+.circulo{ /* Se selecciona la clase .circulo creada en practica1.html */
+    width: 40px; 
+    height: 40px; 
+    background: rgb(228, 211, 221);
+    border-radius: 50%; /* Esta parte nos convierte el elemento cuadrado en un circulo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* ¡Clave! Oculta lo que se salga del círculo pequeñito */
+}
+
+.img-circulo {
+    width: 100%;
+    height: auto;
+}
+
+.header input{ /* Esta parte nos selecciona el input que esta dentro del header*/
+    width: 180px; /* Ancho ajustado */
+    height: 35px; /* Alto */
+    font-size: 14px; /* Tamaño de la letra corregido para que no quede gigante */
+    padding: 0 10px; /* Espacio interno para que el texto no pegue de los bordes */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.barraSec{
+    height: 40px;
+    background: #f2c0ef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.barraSec button{
+    background: #e57a52;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+
+.contenedor2{
+    background: #d7d7d7;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centrado verticalmente para que el texto y el gorila se vean alineados */
+    min-height: 250px;
+}
+
+.cuadro-izquierdo{
+    width: 50%;
+    background: transparent;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.cuadro-derecho{
+    width: 45%;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulo2{ /* Contenedor circular para la imagen del gorila */
+    width: 150px;
+    height: 150px;
+    background: #e9f893;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Esto oculta cualquier parte de la imagen que se salga del círculo */
+}
+
+.gorila{
+    width: 100%; /* Hace que la imagen se adapte al tamaño del círculo 2 */
+    height: auto;
+}
+
+.footer{
+    height: 50px;
+    background: #e46b42;
+}
