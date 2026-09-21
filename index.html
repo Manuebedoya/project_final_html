@@ -57,9 +57,8 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 
             <!-- PROYECTO 1 -->
-            <a href="project1/index.html" class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:border-indigo-500 hover:scale-[1.02] transition-all duration-300 flex flex-col justify-between group">
+            <a href="project1/intro-css/practica1.html" target="_blank" rel="noopener noreferrer" class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:border-indigo-500 hover:scale-[1.02] transition-all duration-300 flex flex-col justify-between group">
                 <div class="p-6 bg-slate-950/50">
-                    <div class="bg-sky-950/40 border border-sky-800/30 rounded-xl p-3 text-white">
                         <div class="flex justify-between items-center text-[10px] text-sky-300 mb-2">
                             <span>WEBSITE 01</span>
                             <span class="bg-orange-500 px-2 py-0.5 rounded text-white font-bold">Home</span>
@@ -78,7 +77,7 @@
             </a>
 
             <!-- PROYECTO 2 -->
-            <a href="project2/index.html" class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:border-indigo-500 hover:scale-[1.02] transition-all duration-300 flex flex-col justify-between group">
+            <a href="project2/index.html" target="_blank" rel="noopener noreferrer" class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:border-indigo-500 hover:scale-[1.02] transition-all duration-300 flex flex-col justify-between group">
                 <div class="p-6 bg-slate-950/50">
                     <div class="bg-indigo-950/40 border border-indigo-800/30 rounded-xl p-4">
                         <div class="text-xs font-bold text-indigo-400 mb-1">Desarrollo Web</div>
@@ -97,8 +96,8 @@
                 </div>
             </a>
 
-            <!-- PROYECTO 3 (Ruta actualizada con su subcarpeta) -->
-            <a href="project3/prueba_para_proyecto_final/index.html" class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:border-indigo-500 hover:scale-[1.02] transition-all duration-300 flex flex-col justify-between group">
+            <!-- PROYECTO 3 -->
+            <a href="project3/prueba_para_proyecto_final/index.html" target="_blank" rel="noopener noreferrer" class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:border-indigo-500 hover:scale-[1.02] transition-all duration-300 flex flex-col justify-between group">
                 <div class="p-6 bg-amber-950/20">
                     <div class="bg-amber-900/30 border border-amber-800/30 rounded-xl p-4 text-amber-200 shadow-inner">
                         <div class="text-xs font-semibold tracking-wider uppercase text-amber-400 mb-1">Destellos de Jaspe</div>
@@ -123,145 +122,6 @@
     <!-- PIE DE PÁGINA -->
     <footer class="max-w-6xl mx-auto px-6 py-10 border-t border-slate-900 text-center text-sm text-slate-500">
         <p>© 2026 Manuela Bedoya. Hecho con mucho amor y Tailwind CSS.</p>
-
-    <title>Destellos de Jaspe</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
-    <!-- CABECERA Y NAVEGACIÓN -->
-    <header>
-        <div class="logo">
-            <span class="icono-vela">🕯️</span>
-            <h1>Destellos de Jaspe</h1>
-        </div>
-
-        <nav>
-            <a href="#inicio" class="activo">Inicio</a>
-            <a href="#productos">Productos</a>
-            <a href="#nosotros">Nosotros</a>
-            <a href="#contacto">Contacto</a>
-        </nav>
-    </header>
-
-    <!-- SECCIÓN PRINCIPAL (HERO) -->
-    <section id="inicio" class="hero">
-        <div class="hero-contenido">
-            <h2>
-                Enciende tu esencia,<br>
-                conecta con la naturaleza
-            </h2>
-            <p>Velas artesanales elaboradas con cera de soya, aromas que despiertan tus sentidos y diseños inspirados en la fuerza de los elementos.</p>
-            <a href="#productos" class="btn-naranja">Descubre nuestras velas</a>
-        </div>
-    </section>
-
-    <!-- SECCIÓN DE PRODUCTOS -->
-    <section id="productos" class="productos-seccion">
-        <div class="seccion-titulo">
-            <h2>Nuestras velas</h2>
-            <p>Crea momentos especiales con aromas, formas y detalles hechos para conectar contigo.</p>
-        </div>
-
-        <div class="tarjetas-container">
-
-            <!-- PRODUCTO 1 -->
-            <div class="tarjeta">
-                <div class="tarjeta-imagen vela-molde"></div>
-                <div class="tarjeta-info">
-                    <h3>Velas de Molde</h3>
-                    <p>Figuras artesanales elaboradas con cera de soya, perfectas para decorar y regalar.</p>
-                    <a href="#contacto">Ver más</a>
-                </div>
-            </div>
-
-            <!-- PRODUCTO 2 -->
-            <div class="tarjeta">
-                <div class="tarjeta-imagen vela-recipiente"></div>
-                <div class="tarjeta-info">
-                    <h3>Velas Aromáticas</h3>
-                    <p>Velas de soya en recipientes, disponibles en diferentes aromas para crear ambientes especiales.</p>
-                    <a href="#contacto">Ver más</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SOBRE NOSOTROS -->
-    <section id="nosotros" class="nosotros-seccion">
-        <div class="nosotros-contenido">
-            <div class="nosotros-texto">
-                <h2>Nuestra esencia</h2>
-                <p>En Destellos de Jaspe creemos que una vela es mucho más que una fuente de luz. Es un pequeño ritual que puede transformar un espacio y despertar nuestros sentidos.</p>
-                
-                <p>Creamos nuestras velas artesanalmente con cera de soya, combinando aromas, formas y detalles inspirados en la naturaleza y en la energía de los elementos.</p>
-
-                <p class="slogan">"Conecta con los elementos, lleva su fuerza contigo."</p>
-            </div>
-
-            <div class="nosotros-imagen">
-                <span>🕯️</span>
-            </div>
-        </div>
-    </section>
-
-    <section id="contacto" class="contacto-seccion">
-        <div class="seccion-titulo">
-            <h2>Encuentra tu destello</h2>
-            <p>¿Quieres conocer nuestros aromas, diseños o hacer un pedido? Escríbenos, estaremos felices de atenderte.</p>
-        </div>
-        <div class="contacto-contenido">
-            <div class="contacto-info">
-                <h3>Hablemos</h3>
-                <p>📍 Medellín, Colombia</p>
-                <p>📞 +57 3046644954</p>
-                <p>✉️ destellosdjaspe@gmail.com</p>
-            </div>
-            <form class="formulario-contacto">
-                <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" name="nombre"
-                    placeholder="Escribe tu nombre">
-                <label for="correo">Correo</label>
-                <input type="email" id="correo" name="correo"
-                    placeholder="Escribe tu correo">
-                <label for="mensaje">Mensaje</label>
-                <textarea id="mensaje" name="mensaje"
-                        placeholder="Cuéntanos qué vela estás buscando"></textarea>
-                <button type="submit">Enviar mensaje</button>
-            </form>
-        </div>
-    </section>
-
-    <!-- PIE DE PÁGINA (FOOTER) -->
-    <footer>
-        <div class="footer-contenido">
-            <div class="footer-columna">
-                <div class="logo-footer">
-                    <span>🕯️</span>
-                    <h3>Destellos de Jaspe</h3>
-                </div>
-                <p>Velas artesanales de soya creadas para conectar tus sentidos con la esencia de la naturaleza.</p>
-            </div>
-            <div class="footer-columna">
-                <h4>Explora</h4>
-                <a href="#inicio">Inicio</a>
-                <a href="#productos">Productos</a>
-                <a href="#nosotros">Nosotros</a>
-                <a href="#contacto">Contacto</a>
-            </div>
-            <div class="footer-columna">
-                <h4>Síguenos</h4>
-                <div class="redes">
-                    <a href="#" class="social-btn">f</a>
-                    <a href="#" class="social-btn">📷</a>
-                    <a href="#" class="social-btn">♪</a>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>© 2026 Destellos de Jaspe. Todos los derechos reservados.</p>
-        </div>
-
     </footer>
 
 </body>
