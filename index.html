@@ -6,6 +6,7 @@
     <title>Portafolio - Manuela Bedoya</title>
     <!-- Script de Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./dist/output.css">
 </head>
 <body class="bg-slate-950 text-slate-100 font-sans antialiased">
 
@@ -54,21 +55,22 @@
             <span class="w-2 h-2 rounded-full bg-indigo-500"></span> Proyectos destacados
         </h2>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
 
             <!-- PROYECTO 1 -->
             <a href="project1/intro-css/practica1.html" target="_blank" rel="noopener noreferrer" class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:border-indigo-500 hover:scale-[1.02] transition-all duration-300 flex flex-col justify-between group">
                 <div class="p-6 bg-slate-950/50">
+                    <div class="bg-sky-950/40 border border-sky-800/30 rounded-xl p-3 text-white">
                         <div class="flex justify-between items-center text-[10px] text-sky-300 mb-2">
-                            <span>WEBSITE 01</span>
-                            <span class="bg-orange-500 px-2 py-0.5 rounded text-white font-bold">Home</span>
+                            <span>PROYECTO 01</span>
+                            <span class="bg-orange-500 px-2 py-0.5 rounded text-white font-bold">Nativo</span>
                         </div>
                         <div class="text-[10px] text-slate-300">Maqueta modular con Flexbox y diseño responsive.</div>
                     </div>
                 </div>
                 <div class="p-6 space-y-4">
-                    <h3 class="text-xl font-bold group-hover:text-indigo-400 transition">Maqueta Práctica (Website)</h3>
-                    <p class="text-slate-400 text-sm">Sitio web estructurado desde cero con HTML semántico y CSS nativo.</p>
+                    <h3 class="text-lg font-bold group-hover:text-indigo-400 transition">Website Nativo</h3>
+                    <p class="text-slate-400 text-sm">Maquetación web estructurada con HTML y CSS nativo.</p>
                     <div class="flex gap-2 text-xs">
                         <span class="px-2.5 py-1 rounded bg-amber-950/50 text-amber-400 border border-amber-800/50">HTML</span>
                         <span class="px-2.5 py-1 rounded bg-blue-950/50 text-blue-400 border border-blue-800/50">CSS</span>
@@ -79,39 +81,56 @@
             <!-- PROYECTO 2 -->
             <a href="project2/index.html" target="_blank" rel="noopener noreferrer" class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:border-indigo-500 hover:scale-[1.02] transition-all duration-300 flex flex-col justify-between group">
                 <div class="p-6 bg-slate-950/50">
-                    <div class="bg-indigo-950/40 border border-indigo-800/30 rounded-xl p-4">
-                        <div class="text-xs font-bold text-indigo-400 mb-1">Desarrollo Web</div>
-                        <div class="text-sm font-extrabold mb-1">Proyecto desde Cero</div>
-                        <div class="text-[10px] text-slate-400">Estructura limpia, lógica y componentes personalizados.</div>
+                    <div class="bg-purple-950/40 border border-purple-800/30 rounded-xl p-4">
+                        <div class="text-xs font-bold text-purple-400 mb-1">Bootstrap</div>
+                        <div class="text-sm font-extrabold mb-1">Samsara Digital</div>
+                        <div class="text-[10px] text-slate-400">Diseño adaptable con componentes prediseñados.</div>
                     </div>
                 </div>
                 <div class="p-6 space-y-4">
-                    <h3 class="text-xl font-bold group-hover:text-indigo-400 transition">Proyecto Principal (Desde Cero)</h3>
-                    <p class="text-slate-400 text-sm">Aplicación o sitio web desarrollado paso a paso con código propio y diseño optimizado.</p>
+                    <h3 class="text-lg font-bold group-hover:text-indigo-400 transition">Samsara Digital</h3>
+                    <p class="text-slate-400 text-sm">Página web corporativa creada utilizando Bootstrap.</p>
                     <div class="flex gap-2 text-xs">
+                        <span class="px-2.5 py-1 rounded bg-purple-950/50 text-purple-400 border border-purple-800/50">Bootstrap</span>
                         <span class="px-2.5 py-1 rounded bg-amber-950/50 text-amber-400 border border-amber-800/50">HTML</span>
-                        <span class="px-2.5 py-1 rounded bg-blue-950/50 text-blue-400 border border-blue-800/50">CSS</span>
-                        <span class="px-2.5 py-1 rounded bg-yellow-950/50 text-yellow-400 border border-yellow-800/50">JS</span>
                     </div>
                 </div>
             </a>
 
             <!-- PROYECTO 3 -->
-            <a href="project3/prueba_para_proyecto_final/index.html" target="_blank" rel="noopener noreferrer" class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:border-indigo-500 hover:scale-[1.02] transition-all duration-300 flex flex-col justify-between group">
+            <a href="project3/index.html" target="_blank" rel="noopener noreferrer" class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:border-indigo-500 hover:scale-[1.02] transition-all duration-300 flex flex-col justify-between group">
                 <div class="p-6 bg-amber-950/20">
                     <div class="bg-amber-900/30 border border-amber-800/30 rounded-xl p-4 text-amber-200 shadow-inner">
                         <div class="text-xs font-semibold tracking-wider uppercase text-amber-400 mb-1">Destellos de Jaspe</div>
-                        <div class="text-base font-bold text-white mb-1">Velas Artesanales de Soja</div>
-                        <div class="text-xs text-amber-100/70">Hechas a mano con esencias naturales.</div>
+                        <div class="text-base font-bold text-white mb-1">Velas Artesanales</div>
+                        <div class="text-xs text-amber-100/70">Cera de soya de molde y frasco.</div>
                     </div>
                 </div>
                 <div class="p-6 space-y-4">
-                    <h3 class="text-xl font-bold group-hover:text-indigo-400 transition">Tienda de Velas</h3>
-                    <p class="text-slate-400 text-sm">Sitio web interactivo para un catálogo de velas aromáticas y artesanales.</p>
+                    <h3 class="text-lg font-bold group-hover:text-indigo-400 transition">Destellos de Jaspe</h3>
+                    <p class="text-slate-400 text-sm">Tienda de velas aromáticas artesanales en código nativo.</p>
                     <div class="flex gap-2 text-xs">
                         <span class="px-2.5 py-1 rounded bg-amber-950/50 text-amber-400 border border-amber-800/50">HTML</span>
                         <span class="px-2.5 py-1 rounded bg-blue-950/50 text-blue-400 border border-blue-800/50">CSS</span>
-                        <span class="px-2.5 py-1 rounded bg-yellow-950/50 text-yellow-400 border border-yellow-800/50">JS</span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- PROYECTO 4 -->
+            <a href="project4/dist/index.html" target="_blank" rel="noopener noreferrer" class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:border-indigo-500 hover:scale-[1.02] transition-all duration-300 flex flex-col justify-between group">
+                <div class="p-6 bg-slate-950/50">
+                    <div class="bg-teal-950/40 border border-teal-800/30 rounded-xl p-4">
+                        <div class="text-xs font-bold text-teal-400 mb-1">Tailwind CSS</div>
+                        <div class="text-sm font-extrabold mb-1">Studio Capilar</div>
+                        <div class="text-[10px] text-slate-400">Estilos modernos y diseño optimizado.</div>
+                    </div>
+                </div>
+                <div class="p-6 space-y-4">
+                    <h3 class="text-lg font-bold group-hover:text-indigo-400 transition">Studio Capilar</h3>
+                    <p class="text-slate-400 text-sm">Página web para salón de belleza diseñada con Tailwind CSS.</p>
+                    <div class="flex gap-2 text-xs">
+                        <span class="px-2.5 py-1 rounded bg-teal-950/50 text-teal-400 border border-teal-800/50">Tailwind</span>
+                        <span class="px-2.5 py-1 rounded bg-amber-950/50 text-amber-400 border border-amber-800/50">HTML</span>
                     </div>
                 </div>
             </a>

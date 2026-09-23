@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Capilar - Servicios</title>
+    <!-- Enlace al archivo CSS generado por Tailwind CLI -->
+    <link href="output.css" rel="stylesheet">
+</head>
+<body class="bg-amber-50/30 text-slate-800 font-sans antialiased">
+
+    <!-- 1. BARRA DE NAVEGACIÓN -->
+    <nav class="bg-stone-900 text-white shadow-md">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold tracking-wider text-amber-200">Manuela Bedoya - Studio Capilar</a>
+            
+            <div class="hidden md:flex gap-8 text-sm">
+                <a href="#" class="hover:text-amber-300 transition">Inicio</a>
+                <a href="#" class="text-amber-300 font-semibold">Servicios</a>
+                <a href="#" class="hover:text-amber-300 transition">Nosotros</a>
+                <a href="#" class="hover:text-amber-300 transition">Contacto</a>
+            </div>
+
+            <a href="#" class="bg-amber-600 hover:bg-amber-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition">Reservar Cita</a>
+        </div>
+    </nav>
+
+    <!-- 2. ENCABEZADO DE LA SECCIÓN -->
+    <header class="relative bg-stone-900 text-white h-72 md:h-80 flex items-center justify-center text-center border-b border-stone-800 overflow-hidden px-6">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1920&q=80" alt="Studio Capilar Background" class="w-full h-full object-cover opacity-25">
+            <div class="absolute inset-0 bg-gradient-to-b from-stone-900/80 via-stone-900/60 to-stone-900"></div>
+        </div>
+
+        <div class="relative z-10 max-w-3xl mx-auto space-y-3">
+            <span class="inline-block bg-amber-500/10 text-amber-300 border border-amber-500/30 text-xs px-3 py-1 rounded-full font-medium tracking-wide uppercase">Cuidado Capilar Exclusivo</span>
+            <h1 class="text-3xl md:text-4xl font-extrabold tracking-tight text-amber-100">Especialidades Capilares</h1>
+            <p class="text-stone-300 text-sm md:text-base max-w-xl mx-auto leading-relaxed">Transformamos, cuidamos y revitalizamos la salud de tu cabello con técnicas profesionales y productos de alta gama.</p>
+        </div>
+    </header>
+
+    <!-- 3. SECCIÓN PRINCIPAL DE TARJETAS -->
+    <main class="max-w-6xl mx-auto px-6 py-16">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <!-- Tarjeta 1: Alisados y Cirugías -->
+            <div class="relative bg-white/60 border border-stone-200 rounded-2xl p-6 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between overflow-hidden group">
+                <div class="absolute inset-0 z-0">
+                    <img src="img/liso.png" alt="Alisados Capilares" class="w-full h-full object-cover opacity-120 group-hover:opacity-150 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-white/90 via-white/75 to-white/60"></div>
+                </div>
+                <div class="relative z-10">
+                    <div class="w-12 h-12 bg-amber-100 text-amber-700 rounded-xl flex items-center justify-center font-bold text-xl mb-4 shadow-sm">✨</div>
+                    <h3 class="text-xl font-bold mb-2 text-stone-900">Alisados y Cirugías</h3>
+                    <p class="text-stone-600 text-sm mb-4 leading-relaxed">Elimina el frizz por completo, aportando hasta un 60% de hidratacion, dándole un brillo espejo duradero sin maltratar la hebra capilar.</p>
+                </div>
+                <ul class="relative z-10 text-xs text-stone-600 space-y-1.5 border-t border-stone-200/80 pt-4 font-medium">
+                    <li>✓ Cero formol</li>
+                    <li>✓ Hidratación profunda</li>
+                    <li>✓ Brillo y suavidad extrema</li>
+                    <li>✓ Larga duración</li>
+                </ul>
+            </div>
+
+            <!-- Tarjeta 2: Nutrición Profunda -->
+            <div class="relative bg-white/60 border border-stone-200 rounded-2xl p-6 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between overflow-hidden group">
+                <div class="absolute inset-0 z-0">
+                    <img src="img/hidratacion.png" alt="Nutrición Profunda" class="w-full h-full object-cover opacity-120 group-hover:opacity-150 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-white/90 via-white/75 to-white/60"></div>
+                </div>
+                <div class="relative z-10">
+                    <div class="w-12 h-12 bg-amber-100 text-amber-700 rounded-xl flex items-center justify-center font-bold text-xl mb-4 shadow-sm">💧</div>
+                    <h3 class="text-xl font-bold mb-2 text-stone-900">Nutrición Profunda</h3>
+                    <p class="text-stone-600 text-sm mb-4 leading-relaxed">Tratamientos intensivos de hidratación y reconstrucción para cabellos sensibilizados por envejecimiento y procesos químicos.</p>
+                </div>
+                <ul class="relative z-10 text-xs text-stone-600 space-y-1.5 border-t border-stone-200/80 pt-4 font-medium">
+                    <li>✓ Sellado de puntas</li>
+                    <li>✓ Reposición de aminoácidos</li>
+                    <li>✓ Aporte de keratina</li>
+                    <li>✓ Revitalización total</li>
+                </ul>
+            </div>
+
+            <!-- Tarjeta 3: Colorimetría & Balayages -->
+            <div class="relative bg-white/60 border border-stone-200 rounded-2xl p-6 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between overflow-hidden group">
+                <div class="absolute inset-0 z-0">
+                    <img src="img/balayage_cenizo.jpg" alt="Colorimetría y Balayage" class="w-full h-full object-cover opacity-120 group-hover:opacity-150 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-white/90 via-white/75 to-white/60"></div>
+                </div>
+                <div class="relative z-10">
+                    <div class="w-12 h-12 bg-amber-100 text-amber-700 rounded-xl flex items-center justify-center font-bold text-xl mb-4 shadow-sm">🎨</div>
+                    <h3 class="text-xl font-bold mb-2 text-stone-900">Colorimetría & Balayages</h3>
+                    <p class="text-stone-600 text-sm mb-4 leading-relaxed">Diseños de color personalizados, técnicas de iluminación en tendencia y matizados perfectos.</p>
+                </div>
+                <ul class="relative z-10 text-xs text-stone-600 space-y-1.5 border-t border-stone-200/80 pt-4 font-medium">
+                    <li>✓ Diagnóstico de color previo</li>
+                    <li>✓ Protección Plex en decoloración</li>
+                    <li>✓ Tonos personalizados</li>
+                    <li>✓ Cabellos más vivos</li>
+                </ul>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- 4. PIE DE PÁGINA -->
+    <footer class="bg-stone-900 text-stone-400 py-8 border-t border-stone-800 text-center text-sm">
+        <p>© 2026 Manuela Bedoya - Studio Capilar. Desarrollado con Tailwind CSS (CLI).</p>
+    </footer>
+
+</body>
+</html>

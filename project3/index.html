@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destellos de Jaspe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- CABECERA Y NAVEGACIÓN -->
+    <header>
+        <div class="logo">
+            <span class="icono-vela">🕯️</span>
+            <h1>Destellos de Jaspe</h1>
+        </div>
+
+        <nav>
+            <a href="#inicio" class="activo">Inicio</a>
+            <a href="#productos">Productos</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- SECCIÓN PRINCIPAL (HERO / BANNER) -->
+    <section id="inicio" class="hero">
+        <!-- Imagen de fondo del banner insertada de forma directa -->
+        <img src="img/artesanos_velas.png" alt="Banner de velas artesanales" class="hero-imagen-fondo">
+        
+        <div class="hero-contenido">
+            <h2>
+                Enciende tu esencia,<br>
+                conecta con la naturaleza
+            </h2>
+            <p>Velas artesanales elaboradas con cera de soya, aromas que despiertan tus sentidos y diseños inspirados en la fuerza de los elementos.</p>
+            <a href="#productos" class="btn-naranja">Descubre nuestras velas</a>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE PRODUCTOS -->
+    <section id="productos" class="productos-seccion">
+        <div class="seccion-titulo">
+            <h2>Nuestras velas</h2>
+            <p>Crea momentos especiales con aromas, formas y detalles hechos para conectar contigo.</p>
+        </div>
+
+        <div class="tarjetas-container">
+
+            <!-- PRODUCTO 1: VELA DE MOLDE -->
+            <div class="tarjeta">
+                <div class="tarjeta-imagen">
+                    <img src="img/molde.png" alt="Velas de Molde">
+                </div>
+                <div class="tarjeta-info">
+                    <h3>Velas de Molde</h3>
+                    <p>Figuras artesanales elaboradas con cera de soya, perfectas para decorar y regalar.</p>
+                    <a href="#contacto">Ver más</a>
+                </div>
+            </div>
+
+            <!-- PRODUCTO 2: VELA AROMÁTICA -->
+            <div class="tarjeta">
+                <div class="tarjeta-imagen">
+                    <img src="img/frasco.png" alt="Velas Aromáticas">
+                </div>
+                <div class="tarjeta-info">
+                    <h3>Velas Aromáticas</h3>
+                    <p>Velas de soya en recipientes, disponibles en diferentes aromas para crear ambientes especiales.</p>
+                    <a href="#contacto">Ver más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE NOSOTROS -->
+<section id="nosotros" class="nosotros-seccion">
+    <div class="nosotros-contenido">
+        <div class="nosotros-texto">
+            <h2>Nuestra esencia</h2>
+            <p>En Destellos de Jaspe creemos que una vela es mucho más que una fuente de luz. Es un pequeño ritual que puede transformar un espacio y despertar nuestros sentidos.</p>
+            <p>Creamos nuestras velas artesanalmente con cera de soya, combinando aromas, formas y detalles inspirados en la naturaleza y en la energía de los elementos.</p>
+            <p class="slogan">"Conecta con los elementos, lleva su fuerza contigo."</p>
+        </div>
+        <div class="nosotros-imagen">
+            <!-- Cambiamos el span por una etiqueta img (puedes usar tu imagen local o una URL) -->
+            <img src="img/velas_aromaticas.png" alt="Vela artesanal sobre nuestra esencia">
+        </div>
+    </div>
+</section>
+
+    <!-- SECCIÓN CONTACTO -->
+    <section id="contacto" class="contacto-seccion">
+        <div class="seccion-titulo">
+            <h2>Encuentra tu destello</h2>
+            <p>¿Quieres conocer nuestros aromas, diseños o hacer un pedido? Escríbenos, estaremos felices de atenderte.</p>
+        </div>
+        <div class="contacto-contenido">
+            <div class="contacto-info">
+                <h3>Hablemos</h3>
+                <p>📍 Medellín, Colombia</p>
+                <p>📞 +57 3046644954</p>
+                <p>✉️ destellosdjaspe@gmail.com</p>
+            </div>
+            <form class="formulario-contacto">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre">
+                <label for="correo">Correo</label>
+                <input type="email" id="correo" name="correo" placeholder="Escribe tu correo">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos qué vela estás buscando"></textarea>
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- PIE DE PÁGINA (FOOTER) -->
+    <footer>
+        <div class="footer-contenido">
+            <div class="footer-columna">
+                <div class="logo-footer">
+                    <span>🕯️</span>
+                    <h3>Destellos de Jaspe</h3>
+                </div>
+                <p>Velas artesanales de soya creadas para conectar tus sentidos con la esencia de la naturaleza.</p>
+            </div>
+            <div class="footer-columna">
+                <h4>Explora</h4>
+                <a href="#inicio">Inicio</a>
+                <a href="#productos">Productos</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+            <div class="footer-columna">
+                <h4>Síguenos</h4>
+                <div class="redes">
+                    <a href="#" class="social-btn">f</a>
+                    <a href="#" class="social-btn">📷</a>
+                    <a href="#" class="social-btn">♪</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Destellos de Jaspe. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
